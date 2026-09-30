@@ -1,0 +1,7 @@
+CP3 PRACTICE ONLY ? not official challenge evidence.
+trace_id: 8f59f5db0d91fcfbd4448c8712bafb08
+correlation_id: req-715019ff
+root: lab-agent-run; level=ERROR; status=Vector store timeout
+child: retrieval; type=RETRIEVER; parent=d6d0eba7145572d2; level=ERROR; status=Vector store timeout
+generation child: absent because retrieval failed before generation.
+raw input/output captured: false

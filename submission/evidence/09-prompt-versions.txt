@@ -1,0 +1,4 @@
+Langfuse prompt: day13-chat (Text). Variables: {{feature}}, {{docs}}, {{message}}.
+Version 1: labels baseline, production.
+Version 2: labels candidate, latest; added a short-answer instruction.
+Current pointers verified through prompt API: baseline -> v1; candidate -> v2; production -> v1.

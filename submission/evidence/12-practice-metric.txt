@@ -1,0 +1,7 @@
+CP3 PRACTICE ONLY ? tool_fail, concurrency 5
+Time range UTC: 2026-09-30T04:20:07.917204+00:00 to 2026-09-30T04:20:07.931650+00:00
+Requests received: 10
+Request failures: 10
+Error rate: 100.0%
+Retrieval success: 0.0% (0/10)
+Challenge ID: not applicable; official challenge file not released.

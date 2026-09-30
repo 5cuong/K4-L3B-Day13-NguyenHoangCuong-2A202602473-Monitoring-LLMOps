@@ -3,11 +3,21 @@ primary_slo:
   name: fast_successful_requests
   window: 28d
   sli:
-    good_event: 'event == "response_sent" and latency_ms <= 3000'
+    good_event: 'event == "response_sent" and latency_ms <= 3500'
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình. Ví dụ nếu có 10,000 request trong cửa sổ 28 ngày, error budget 0.5% nghĩa là tối đa 50 request được phép không đạt SLO.
+  error_budget_example:
+    request_count: 10000
+    allowed_bad_requests: 50
+  note: >-
+    Initial threshold is 3500 ms: the clean pre-incident sample had 21 requests,
+    latency P50 153 ms, P95 2267 ms, P99 3225 ms, max 3464 ms, TTFT P95 50 ms,
+    zero errors, and 20/21 responses within 3000 ms. The 3000 ms dashboard line
+    remains an early-warning threshold. This small practice sample is not a
+    28-day SLO result; review the target after representative production load.
+    At 99.5%, the 0.5% error budget allows floor(10000 * 0.005) = 50 bad
+    requests per 10000 requests.
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5

@@ -1,0 +1,4 @@
+Synthetic PII smoke checks; raw values intentionally omitted.
+Coverage: email, VN phone, CCCD, payment card.
+Redaction markers found in sanitized logs: {"CCCD": 1, "CREDIT_CARD": 4, "EMAIL": 4, "PHONE_VN": 4}
+Log validator PII hits: 0.

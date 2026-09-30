@@ -1,0 +1,10 @@
+Prompt label change evidence (day13-chat):
+
+Initial: baseline -> v1; production -> v1.
+After promote: baseline -> v1; candidate -> v2; production -> v2.
+After rollback: baseline -> v1; candidate -> v2; production -> v1.
+Final API check: production resolves to v1; candidate resolves to v2.
+
+Baseline trace: 26305b25452288d9d7bb8f5e5db3866a (v1).
+Candidate trace: e1e3abe6d1cdfc7d0cc8de427039e665 (v2).
+Post-rollback production trace: 00caa89a0f1c3e7dea2cacd3276e8b1b (v1).

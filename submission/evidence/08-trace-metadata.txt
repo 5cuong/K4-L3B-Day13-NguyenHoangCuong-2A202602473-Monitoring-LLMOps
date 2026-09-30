@@ -1,0 +1,15 @@
+Langfuse trace metadata and generation usage (safe fields only; raw I/O omitted).
+model: claude-sonnet-4-5
+prompt_name: day13-chat
+trace_name: day13-agent-request
+correlation_id joins these traces to structured logs.
+
+v1 baseline trace 26305b25452288d9d7bb8f5e5db3866a / req-c8034ec7
+prompt_label=baseline; prompt_version=1; prompt_source=langfuse
+usage input=44, output=33 tokens; cost input=$0.000132, output=$0.000495, total=$0.000627
+
+v2 candidate trace e1e3abe6d1cdfc7d0cc8de427039e665 / req-240f7dfe
+prompt_label=candidate; prompt_version=2; prompt_source=langfuse
+usage input=50, output=33 tokens; cost input=$0.000150, output=$0.000495, total=$0.000645
+
+Input/output capture disabled on root, retrieval, and generation observations.

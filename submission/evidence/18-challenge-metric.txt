@@ -1,0 +1,10 @@
+Official CP3 challenge: day13-k4-l3b-monitoring-llmops-v1
+Incident: rag_slow; affected feature: monitoring; challenge threshold: 2000 ms.
+UTC interval: 2026-09-30T04:35:28.406071+00:00 to 2026-09-30T04:35:41.708145+00:00
+Requests: 5 received, 5 completed, 0 failed; error rate 0.0%.
+Response latency_ms values: [2653, 2653, 2654, 2655, 2656]; median 2654 ms; max 2656 ms.
+Challenge threshold breaches: 5/5 responses.
+Retrieval span latency range: 2.500-2.502 s.
+Generation span latency range: 0.152-0.153 s.
+Retrieval success events: 5/5.
+External load-test wall time at concurrency 5: 7.99-13.32 s per request; this includes concurrent client/telemetry overhead.

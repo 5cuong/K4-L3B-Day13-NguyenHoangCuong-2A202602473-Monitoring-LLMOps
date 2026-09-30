@@ -1,0 +1,23 @@
+Clean dashboard runtime summary (UTC):
+{
+  "http_status": 200,
+  "panels": 6,
+  "refresh_30s": true,
+  "time_range_60m": true,
+  "readable_units": true,
+  "minute_points": 11,
+  "first_minute": "2026-09-30T04:42",
+  "last_minute": "2026-09-30T05:07",
+  "records": 206,
+  "requests": 102,
+  "responses": 102,
+  "errors": 0,
+  "retrieval_success_pct": 100.0,
+  "latency_ms": {
+    "p50": 152.0,
+    "p95": 155.0,
+    "p99": 1444.1799999999935,
+    "max": 1762
+  },
+  "ttft_p95_ms": 51.0
+}

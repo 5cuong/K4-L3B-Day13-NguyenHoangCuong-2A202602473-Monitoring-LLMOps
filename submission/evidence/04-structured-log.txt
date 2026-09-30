@@ -1,0 +1,9 @@
+CP1 live local request
+HTTP status: 200
+x-request-id: req-0aeb5912
+x-response-time-ms: 155.55
+response body correlation_id matched x-request-id
+
+Sanitized log events:
+{"correlation_id": "req-0aeb5912", "env": "dev", "event": "request_received", "feature": "qa", "model": "claude-sonnet-4-5", "payload": {"message_preview": "Explain why correlation IDs help incident response."}, "ts": "2026-09-30T04:29:31.354606Z"}
+{"correlation_id": "req-0aeb5912", "cost_usd": 0.000594, "env": "dev", "event": "response_sent", "feature": "qa", "latency_ms": 152, "model": "claude-sonnet-4-5", "payload": {"answer_preview": "Starter answer. You should improve this output logic and add better quality chec..."}, "quality_score": 0.8, "tokens_in": 33, "tokens_out": 33, "tool_name": "retrieval", "tool_success": true, "ts": "2026-09-30T04:29:31.507945Z", "ttft_ms": 50}

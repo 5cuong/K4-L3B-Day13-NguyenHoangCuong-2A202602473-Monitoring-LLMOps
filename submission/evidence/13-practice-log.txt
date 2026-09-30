@@ -1,0 +1,4 @@
+CP3 PRACTICE ONLY ? same correlation ID on both log events
+{"correlation_id": "req-715019ff", "env": "dev", "event": "request_received", "feature": "qa", "model": "claude-sonnet-4-5", "payload": {"message_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?"}, "ts": "2026-09-30T04:20:07.917204Z"}
+{"correlation_id": "req-715019ff", "env": "dev", "error_type": "RuntimeError", "event": "request_failed", "feature": "qa", "model": "claude-sonnet-4-5", "payload": {"detail": "Vector store timeout", "message_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?"}, "tool_name": "retrieval", "tool_success": false, "ts": "2026-09-30T04:20:07.918234Z"}
+Trace ID: 8f59f5db0d91fcfbd4448c8712bafb08

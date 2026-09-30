@@ -1,0 +1,22 @@
+CP0 environment verification (secret values omitted):
+{
+  "python": "3.13.13",
+  "venv_active": true,
+  "packages": {
+    "fastapi": "0.118.0",
+    "structlog": "25.4.0",
+    "langfuse": "4.15.6",
+    "PyYAML": "6.0.3"
+  },
+  "langfuse_public_secret_configured": true,
+  "langfuse_base_url_configured": true,
+  "prompt_name": "day13-chat",
+  "prompt_label": "production",
+  "health_status": "ok",
+  "tracing_enabled": true,
+  "incidents": {
+    "rag_slow": false,
+    "tool_fail": false,
+    "cost_spike": false
+  }
+}

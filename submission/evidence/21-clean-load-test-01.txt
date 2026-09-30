@@ -1,0 +1,10 @@
+[200] req-c09cf332 | qa | 2289.9ms
+[200] req-241cddd5 | qa | 158.9ms
+[200] req-c60264b8 | summary | 159.6ms
+[200] req-b6bbe6ef | qa | 161.2ms
+[200] req-2ca4fb43 | qa | 163.9ms
+[200] req-0ddaad20 | summary | 163.6ms
+[200] req-a9dcb470 | qa | 161.2ms
+[200] req-e6e8873e | qa | 165.6ms
+[200] req-44b5717a | qa | 166.0ms
+[200] req-dd313e8c | qa | 162.8ms

@@ -1,0 +1,4 @@
+﻿API restarted after final middleware validation.
+/health: 200; tracing_enabled=true; rag_slow=false; tool_fail=false; cost_spike=false.
+Valid inbound ID req-a1b2c3d4: HTTP 200; ID preserved; response body matched; x-response-time-ms=2809.94.
+Invalid inbound ID invalid-id: HTTP 200; replaced with req-47f5a6cb; format valid; response body matched; x-response-time-ms=161.94.

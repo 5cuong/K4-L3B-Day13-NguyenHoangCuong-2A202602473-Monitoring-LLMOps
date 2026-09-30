@@ -1,0 +1,5 @@
+day13-agent-request (trace_id=26305b25452288d9d7bb8f5e5db3866a)
+??? lab-agent-run (id=a35f57d8e0dc0d2f, type=AGENT, parent=None)
+    ??? generation (id=cdd3d4776ecefc2a, type=GENERATION, parent=a35f57d8e0dc0d2f)
+    ??? retrieval (id=c779394b84b32ee4, type=RETRIEVER, parent=a35f57d8e0dc0d2f)
+raw input/output captured: false
