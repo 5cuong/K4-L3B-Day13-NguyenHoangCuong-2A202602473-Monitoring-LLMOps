@@ -5,7 +5,7 @@
 - **Họ và tên:** Nguyen Hoang Cuong
 - **MSSV:** 2A202602473
 - **Lớp:** K4-L3B
-- **Repository URL:** [GitHub](https://github.com/5cuong/K4-L3B-Day13-NguyenHoangCuong-2A202602473-Monitoring-LLMOps); commit SHA là HEAD của nhánh `main` sau khi push.
+- **Repository URL:** https://github.com/5cuong/K4-L3B-Day13-NguyenHoangCuong-2A202602473-Monitoring-LLMOps; commit SHA là HEAD của nhánh `main` sau khi push.
 - **Challenge ID chính thức:** `day13-k4-l3b-monitoring-llmops-v1` (K4, `rag_slow`).
 - **Project Langfuse:** `day13-k4-l3b-2A202602473`
 
