@@ -11,7 +11,7 @@ Evidence text outputs are sanitized: no credentials or raw PII are included. The
 | `04-structured-log.png` and `.txt` | Sanitized request event, response headers, and text details |
 | `05-pii-redaction.png` and `.txt` | Redaction checks for email, VN phone, CCCD, and card; raw examples omitted |
 | `06-trace-list.txt`–`10-prompt-rollback.txt` | Langfuse trace tree, prompt versions, metadata, and rollback evidence; no raw input/output |
-| `Screenshot 2026-09-30 122411.png` | Langfuse trace list UI showing the `lab-agent-run`, `retrieval`, and `generation` observation types |
+| `screenlangfuse.png` | Langfuse trace list UI showing the `lab-agent-run`, `retrieval`, and `generation` observation types |
 | `11-dashboard-overview.png`, `11-dashboard-overview.html`, `31-dashboard-runtime.txt` | Six-panel dashboard runtime evidence; 60-minute range, 30-second refresh, clean load data |
 | `12-practice-metric.txt`–`14-practice-trace.txt` | `tool_fail` practice investigation, clearly separated from official challenge |
 | `15-challenge-incident-enable.txt`–`17-challenge-incident-disable.txt` | Official K4 challenge injection, load test, and recovery |

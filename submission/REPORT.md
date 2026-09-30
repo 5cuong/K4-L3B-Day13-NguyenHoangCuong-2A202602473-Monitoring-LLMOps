@@ -21,7 +21,7 @@
 | PII redaction | [05-pii-redaction.png](evidence/05-pii-redaction.png), [text details](evidence/05-pii-redaction.txt) |
 | Valid/invalid request ID live smoke | [32-request-id-smoke.txt](evidence/32-request-id-smoke.txt) |
 | Trace list | [06-trace-list.txt](evidence/06-trace-list.txt) |
-| Langfuse trace list UI | [Screenshot 2026-09-30 122411.png](evidence/Screenshot%202026-09-30%20122411.png) |
+| Langfuse trace list UI | [screenlangfuse.png](evidence/screenlangfuse.png) |
 | Trace waterfall | [07-trace-waterfall.txt](evidence/07-trace-waterfall.txt) |
 | Trace metadata và token/cost | [08-trace-metadata.txt](evidence/08-trace-metadata.txt) |
 | Prompt versions | [09-prompt-versions.txt](evidence/09-prompt-versions.txt) |
