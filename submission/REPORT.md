@@ -11,6 +11,28 @@
 
 ## 2. Evidence
 
+### Screenshots
+
+![Structured request log and shared correlation ID](evidence/04-structured-log.png)
+
+![PII redaction markers in the log](evidence/05-pii-redaction.png)
+
+![Langfuse trace list](evidence/06-trace-list.png)
+
+![Langfuse trace waterfall](evidence/07-trace-waterfall.png)
+
+![Langfuse trace metadata](evidence/08-trace-metadata.png)
+
+![Langfuse prompt versions](evidence/09-prompt-versions.png)
+
+![Langfuse prompt rollback state](evidence/10-prompt-rollback.png)
+
+![Six-panel dashboard](evidence/11-dashboard-overview.png)
+
+![CP3 practice log events](evidence/13-practice-log.png)
+
+![Langfuse CP3 practice trace](evidence/14-practice-trace.png)
+
 | Nội dung | Tệp |
 |---|---|
 | CP0 environment | [00-cp0-environment.txt](evidence/00-cp0-environment.txt) |
@@ -21,7 +43,7 @@
 | PII redaction | [05-pii-redaction.png](evidence/05-pii-redaction.png), [text details](evidence/05-pii-redaction.txt) |
 | Valid/invalid request ID live smoke | [32-request-id-smoke.txt](evidence/32-request-id-smoke.txt) |
 | Trace list | [06-trace-list.txt](evidence/06-trace-list.txt) |
-| Langfuse trace list UI | [screenlangfuse.png](evidence/screenlangfuse.png) |
+| Langfuse trace list UI | [06-trace-list.png](evidence/06-trace-list.png) |
 | Trace waterfall | [07-trace-waterfall.txt](evidence/07-trace-waterfall.txt) |
 | Trace metadata và token/cost | [08-trace-metadata.txt](evidence/08-trace-metadata.txt) |
 | Prompt versions | [09-prompt-versions.txt](evidence/09-prompt-versions.txt) |
@@ -36,7 +58,7 @@
 | Kiểm tra | Kết quả |
 |---|---|
 | CP0 Python / dependencies | Python 3.13.13; FastAPI 0.118.0; structlog 25.4.0; Langfuse 4.15.6; PyYAML 6.0.3 |
-| `validate_logs.py` | 100/100; 206 log rows; 102 correlation IDs; 0 PII hit |
+| `validate_logs.py` | 100/100; 246 log rows; 122 correlation IDs; 0 PII hit |
 | `validate_dashboard.py` | Hợp lệ 6/6 panel |
 | pytest | 28 passed |
 | Langfuse | 33 complete trees trong 100 observation gần nhất; 0 nonempty raw input/output; CP3 correlation evidence được lưu riêng |
