@@ -23,7 +23,7 @@ Giữ time range mặc định 60 phút, refresh 30 giây và hiển thị thres
 
 1. Hoàn thiện logging/PII và chạy API.
 2. Chạy `python scripts/load_test.py --concurrency 5` để tạo baseline.
-3. Chạy dashboard local có sẵn bằng `python scripts/dashboard.py` rồi mở `http://127.0.0.1:8501`. Script đọc trực tiếp `data/logs.jsonl` và `config/dashboard.yaml`; nó không cài thêm package ngoài requirements của API.
+3. Dùng `data/logs.jsonl` làm nguồn chuẩn để tạo đúng sáu panel bằng Streamlit, notebook, Grafana hoặc công cụ tương đương. Langfuse vẫn là nơi mở trace/prompt version để điều tra sâu.
 4. Đặt tên panel, đơn vị và threshold giống contract.
 5. Chạy validator:
 
@@ -41,7 +41,5 @@ Validator kiểm tra cấu trúc contract; nó không thể chứng minh biểu 
 4. Xác nhận panel liên quan thay đổi theo đúng hướng theo loại practice scenario đã chọn.
 5. Lọc log chậm, lấy correlation ID rồi mở trace có cùng ID.
 6. Tắt incident bằng `python scripts/inject_incident.py --scenario <practice_scenario> --disable`.
-
-Dashboard mặc định hiển thị 60 phút UTC gần nhất và tự refresh theo `refresh_seconds` (30 giây). Mỗi panel có đơn vị, chuỗi thời gian và đường threshold. Errors tính error rate từ `request_failed / request_received`; retrieval success tính trên mọi event có `tool_success`, gồm cả `response_sent` và `request_failed`.
 
 Ảnh dashboard phải nhìn được tên panel, time range, đơn vị và threshold. Báo cáo phải dẫn lại trace ID hoặc log line dùng để giải thích thay đổi.
